@@ -1,0 +1,44 @@
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background: url(all\ might.png) no-repeat center center fixed;
+    background-size: cover;
+     /* to make the image fit */
+     font-family: 'Oswald', sans-serif ;
+}
+
+h1 {
+    text-transform: capitalize;
+    font-size: 5em;
+    margin-top: 30px;
+    border-bottom: 3px solid;
+}
+
+.buffer{
+    height:8rem;
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: capitalize;
+}
+
+.btn-primary:hover {
+    background-color: #002A8C;
+    border-color: #002A8C;
+    border-width: 4px;
+    /* to increase the size of the button upon hover */
+}
+.btn-xl {
+    padding: 1rem 2rem;
+}
+hr {
+    margin: 20px auto;
+    color: #FFC900;
+    height: 3px;
+    border-width: 3px;
+    max-width: 65px;
+    opacity: 1;  
+}
